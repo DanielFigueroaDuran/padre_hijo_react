@@ -1,13 +1,11 @@
-import { useState } from 'react'
-
 import './App.css'
+import ComponenteA from './components/exercise/ComponenteA';
 
 function App() {
-    // const [count, setCount] = useState(0)
 
     return (
         <>
-            <div>hola dddd</div>
+            <ComponenteA />
         </>
     )
 }
