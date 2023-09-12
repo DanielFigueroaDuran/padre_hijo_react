@@ -8,7 +8,7 @@ const ComponenteD = ({ numB, num, setB }) => {
     }
 
     return (
-        <div className='container'>
+        <div className='containerD'>
             ComponenteD {numB}
             <button onClick={handleClickSubs}>subs</button>
         </div>

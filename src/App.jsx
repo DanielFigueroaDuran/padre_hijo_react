@@ -4,9 +4,9 @@ import ComponenteA from './components/exercise/ComponenteA';
 function App() {
 
     return (
-        <>
+        <div className='containerA'>
             <ComponenteA />
-        </>
+        </div>
     )
 }
 

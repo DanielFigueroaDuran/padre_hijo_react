@@ -1,4 +1,5 @@
 import React from 'react'
+import "./style.css"
 import ComponenteD from './ComponenteD';
 
 const ComponenteC = ({ newNumx, num, setB }) => {
@@ -8,11 +9,11 @@ const ComponenteC = ({ newNumx, num, setB }) => {
     };
 
     return (
-        <>
+        <div className='containerC'>
             <p>num = {num}</p>
             <button onClick={handleClick}>Add</button>
             <ComponenteD numB={newNumx} num={num} setB={setB} />
-        </>
+        </div>
     )
 }
 
